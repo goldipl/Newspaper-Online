@@ -1,0 +1,12 @@
+@import 'reset';
+@import 'nav';
+@import 'header';
+@import 'buttons';
+@import 'footer';
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 18px;
+}
