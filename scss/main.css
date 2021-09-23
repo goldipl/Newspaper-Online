@@ -27,8 +27,6 @@ nav a.logo {
   background: -webkit-gradient(linear, left top, left bottom, from(#8f00ff), to(#222222));
   background: linear-gradient(#8f00ff, #222222);
   background-clip: border-box;
-  margin-left: 16px;
-  text-decoration: none;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
