@@ -5,3 +5,33 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+/* Header News */
+
+.headerNews_Row {
+    display: flex;
+    flex-direction: row;
+}
+
+.headerNews_Row .headerNews_Column {
+    flex-direction: column;
+    flex-basis: 25%;
+    padding: 1%;
+}
+
+.headerNews_Row .headerNews_Column .headerNews_Column_Img img {
+    width: 100%;
+    height: auto;
+}
+
+.headerNews_Row .headerNews_Column .headerNews_Column_Text {
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+
+/* /Header News */
