@@ -44,11 +44,6 @@
     font-size: 18px;
 }
 
-.headerNews_Row .headerNews_Column:hover .headerNews_Column_Text {
-    background-color: #8F00FF;
-    color: #FFFFFF;
-}
-
 @media (max-width: 1000px) {
     .headerNews_Row .headerNews_Column {
         flex-basis: 50%;
