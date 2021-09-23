@@ -41,12 +41,12 @@
     margin-top: 8px;
     font-style: italic;
     color: #8F00FF;
-    font-weight: 600;
+    font-weight: 500;
+    text-decoration: none;
 }
 
 .headerNews_Row .headerNews_Column:hover .headerNews_Column_Text a {
-    background-color: #8F00FF;
-    color: #FFFFFF;
+    text-decoration: underline;
 }
 
 .headerNews_Row .headerNews_Column .headerNews_Column_Text p {
