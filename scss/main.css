@@ -49,8 +49,8 @@ nav .desktopMenu li:hover {
 }
 
 nav .desktopMenu li a {
-  background: -webkit-gradient(linear, left top, left bottom, from(orange), to(orange));
-  background: linear-gradient(to bottom, orange 0%, orange 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#8F00FF), to(#8F00FF));
+  background: linear-gradient(to bottom, #8F00FF 0%, #8F00FF 100%);
   background-position: 0 100%;
   background-repeat: repeat-x;
   background-size: 4px 4px;
@@ -181,7 +181,7 @@ nav .desktopMenu li:hover a {
 
 .mobileMenu .mobileMenu_li li:hover {
   color: #FFFFFF;
-  background: orange;
+  background: #8F00FF;
 }
 
 .mobileMenu .mobileMenu_li li:hover a {
@@ -245,7 +245,7 @@ nav .desktopMenu li:hover a {
 .headerNews_Row .headerNews_Column .headerNews_Column_Text {
   max-width: 100%;
   padding: 4px 12px 0 12px;
-  border: 2px solid orange;
+  border: 2px solid #8F00FF;
   border-top: 0;
   margin-top: -4px;
   font-size: 18px;
@@ -261,7 +261,7 @@ nav .desktopMenu li:hover a {
 }
 
 .headerNews_Row .headerNews_Column:hover .headerNews_Column_Text {
-  background-color: orange;
+  background-color: #8F00FF;
   color: #FFFFFF;
 }
 
@@ -301,7 +301,7 @@ footer {
 
 .footerSection {
   background: none;
-  background-color: #222222;
+  background-color: #8F00FF;
   color: #FFFFFF;
 }
 
