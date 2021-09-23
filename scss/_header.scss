@@ -35,6 +35,20 @@
     font-size: 18px;
 }
 
+.headerNews_Row .headerNews_Column .headerNews_Column_Text a {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 8px;
+    font-style: italic;
+    color: #8F00FF;
+    font-weight: 600;
+}
+
+.headerNews_Row .headerNews_Column:hover .headerNews_Column_Text a {
+    background-color: #8F00FF;
+    color: #FFFFFF;
+}
+
 .headerNews_Row .headerNews_Column .headerNews_Column_Text p {
     display: -webkit-box;
     -webkit-line-clamp: 6;
