@@ -33,6 +33,16 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-align: justify;
+    padding: 4px 12px 0 12px;
+    border: 2px solid orange;
+    border-top: 0;
+    margin-top: -4px;
+    font-size: 18px;
+}
+
+.headerNews_Row .headerNews_Column:hover .headerNews_Column_Text {
+    background-color: orange;
+    color: #FFFFFF;
 }
 
 @media (max-width: 1000px) {
