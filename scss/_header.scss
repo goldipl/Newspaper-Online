@@ -12,6 +12,7 @@
 .headerNews_Row {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .headerNews_Row .headerNews_Column {
@@ -31,6 +32,18 @@
     -webkit-line-clamp: 6;
     -webkit-box-orient: vertical;
     overflow: hidden;
+}
+
+@media (max-width: 1000px) {
+    .headerNews_Row .headerNews_Column {
+        flex-basis: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .headerNews_Row .headerNews_Column {
+        flex-basis: 100%;
+    }
 }
 
 

@@ -223,6 +223,8 @@ nav .desktopMenu li:hover a {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .headerNews_Row .headerNews_Column {
@@ -246,6 +248,20 @@ nav .desktopMenu li:hover a {
   -webkit-line-clamp: 6;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+@media (max-width: 1000px) {
+  .headerNews_Row .headerNews_Column {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .headerNews_Row .headerNews_Column {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
 }
 
 /* /Header News */
