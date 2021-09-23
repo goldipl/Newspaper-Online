@@ -27,16 +27,20 @@
 }
 
 .headerNews_Row .headerNews_Column .headerNews_Column_Text {
-    display: -webkit-box;
     max-width: 100%;
-    -webkit-line-clamp: 6;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-align: justify;
     padding: 4px 12px 0 12px;
     border: 2px solid orange;
     border-top: 0;
     margin-top: -4px;
+    font-size: 18px;
+}
+
+.headerNews_Row .headerNews_Column .headerNews_Column_Text p {
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-align: justify;
     font-size: 18px;
 }
 
