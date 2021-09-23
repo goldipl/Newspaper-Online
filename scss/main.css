@@ -248,6 +248,7 @@ nav .desktopMenu li:hover a {
   -webkit-line-clamp: 6;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  text-align: justify;
 }
 
 @media (max-width: 1000px) {
