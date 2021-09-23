@@ -8,9 +8,14 @@ nav {
 nav a.logo {
     font-size: 40px;
     font-weight: 600;
-    color: #222222;
     margin-left: 16px;
     text-decoration: none;
+    background: linear-gradient(#8f00ff, #222222);
+    background-clip: border-box;
+    margin-left: 16px;
+    text-decoration: none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 nav .desktopMenu {
