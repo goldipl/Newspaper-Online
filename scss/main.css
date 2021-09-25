@@ -270,7 +270,7 @@ nav .desktopMenu li:hover a {
   text-decoration: none;
 }
 
-.headerNews_Row .headerNews_Column:hover .headerNews_Column_Text a {
+.headerNews_Row .headerNews_Column .headerNews_Column_Text a:hover {
   text-decoration: underline;
 }
 
