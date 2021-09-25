@@ -325,6 +325,24 @@ nav .desktopMenu li:hover a {
   text-decoration: none;
 }
 
+.section01 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 8px;
+}
+
+.section01 div img {
+  width: 300px;
+  height: auto;
+  border-left: 5px dashed #8F00FF;
+  border-right: 5px dashed #8F00FF;
+  margin: 0 auto;
+}
+
 footer {
   text-align: center;
 }
