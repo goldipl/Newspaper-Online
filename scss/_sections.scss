@@ -1,3 +1,4 @@
+@import 'variables';
 .section01,
 .section02,
 .section03 {
@@ -8,7 +9,7 @@
         margin-bottom: 16px;
         padding-bottom: 8px;
         text-align: center;
-        background: linear-gradient(to bottom, #8F00FF 0%, #8F00FF 100%);
+        background: linear-gradient(to bottom, $purpleColor01 0%, $purpleColor01 100%);
         background-position-x: 0%;
         background-position-y: 0%;
         background-repeat: repeat;
@@ -16,7 +17,7 @@
         background-position: 0 100%;
         background-repeat: repeat-x;
         background-size: 4px 4px;
-        color: #222222;
+        color: $blackColor01;
         text-decoration: none;
     }
 }
@@ -29,8 +30,8 @@
         img {
             width: 300px;
             height: auto;
-            border-left: 5px dashed #8F00FF;
-            border-right: 5px dashed #8F00FF;
+            border-left: 5px dashed $purpleColor01;
+            border-right: 5px dashed $purpleColor01;
             margin: 0 auto;
         }
     }

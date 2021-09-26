@@ -1,3 +1,4 @@
+@import 'variables';
 nav {
     height: 60px;
     display: flex;
@@ -10,7 +11,7 @@ nav a.logo {
     font-weight: 600;
     margin-left: 16px;
     text-decoration: none;
-    background: linear-gradient(#8f00ff, #222222);
+    background: linear-gradient($purpleColor01, $blackColor01);
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -31,15 +32,15 @@ nav .desktopMenu li {
 }
 
 nav .desktopMenu li:hover {
-    color: #FFFFFF;
+    color: $whiteColor01;
 }
 
 nav .desktopMenu li a {
-    background: linear-gradient( to bottom, #8F00FF 0%, #8F00FF 100%);
+    background: linear-gradient( to bottom, $purpleColor01 0%, $purpleColor01 100%);
     background-position: 0 100%;
     background-repeat: repeat-x;
     background-size: 4px 4px;
-    color: #222222;
+    color: $blackColor01;
     text-decoration: none;
     transition: background-size .2s;
     font-size: 24px;
@@ -50,7 +51,7 @@ nav .desktopMenu li a {
 
 nav .desktopMenu li:hover a {
     background-size: 4px 50px;
-    color: #FFFFFF;
+    color: $whiteColor01;
 }
 
 @media (max-width: 1100px) {
@@ -79,19 +80,19 @@ nav .desktopMenu li:hover a {
 
 .hamburger .bar2 {
     height: 4px;
-    background: #8f00ff;
+    background: $purpleColor01;
     margin: 5px auto;
 }
 
 .hamburger .bar3 {
     height: 4px;
-    background: #8f00ff;
+    background: $purpleColor01;
     margin: 14px auto;
 }
 
 .hamburger.active .bar1 {
     height: 4px;
-    background: #8f00ff;
+    background: $purpleColor01;
     margin: 6px auto;
     transition: 0.2s ease-in-out;
     transform: rotate(45deg) translateX(2px) translateY(4px);
@@ -103,7 +104,7 @@ nav .desktopMenu li:hover a {
 
 .hamburger.active .bar3 {
     height: 4px;
-    background: #8f00ff;
+    background: $purpleColor01;
     margin: 6px auto;
     transition: 0.2s ease-in-out;
     transform: rotate(-45deg) translateX(10px) translateY(-12px);
@@ -150,17 +151,17 @@ nav .desktopMenu li:hover a {
 }
 
 .mobileMenu .mobileMenu_li li:hover {
-    color: #FFFFFF;
-    background: #8F00FF;
+    color: $whiteColor01;
+    background: $purpleColor01;
 }
 
 .mobileMenu .mobileMenu_li li:hover a {
     transition: all 0.3s ease-out;
-    color: #FFFFFF;
+    color: $whiteColor01;
 }
 
 .mobileMenu .mobileMenu_li li a {
-    color: #222222;
+    color: $blackColor01;
     text-decoration: none;
 }
 

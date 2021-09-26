@@ -1,11 +1,12 @@
+@import 'variables';
 footer {
     text-align: center;
 }
 
 .footerSection {
     background: none;
-    background-color: #8F00FF;
-    color: #FFFFFF;
+    background-color: $purpleColor01;
+    color: $whiteColor01;
 }
 
 .footerCopyright {
