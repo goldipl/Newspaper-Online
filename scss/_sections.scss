@@ -36,3 +36,19 @@
         }
     }
 }
+
+
+/* ====== News Template ====== */
+
+body.news {
+    width: 75%;
+    box-shadow: 0px 0px 28px -11px $blackColor01;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    body.news {
+        width: 100%;
+        box-shadow: none;
+    }
+}
