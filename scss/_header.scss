@@ -30,7 +30,8 @@
     width: 100%;
     height: auto;
     border-top: 5px dashed $purpleColor01;
-    border-radius: 16px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
 }
 
 .headerNews_Row .headerNews_Column .headerNews_Column_Img .hotNews {
@@ -53,6 +54,10 @@
     border-top: 0;
     margin-top: -4px;
     font-size: 18px;
+    box-shadow: 0px 0px 28px -11px $blackColor01;
+    padding-bottom: 8px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
 }
 
 .headerNews_Row .headerNews_Column .headerNews_Column_Text a {

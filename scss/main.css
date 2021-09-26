@@ -249,7 +249,8 @@ nav .desktopMenu li:hover a {
   width: 100%;
   height: auto;
   border-top: 5px dashed #8F00FF;
-  border-radius: 16px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
 }
 
 .headerNews_Row .headerNews_Column .headerNews_Column_Img .hotNews {
@@ -272,6 +273,11 @@ nav .desktopMenu li:hover a {
   border-top: 0;
   margin-top: -4px;
   font-size: 18px;
+  -webkit-box-shadow: 0px 0px 28px -11px #222222;
+          box-shadow: 0px 0px 28px -11px #222222;
+  padding-bottom: 8px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
 }
 
 .headerNews_Row .headerNews_Column .headerNews_Column_Text a {
