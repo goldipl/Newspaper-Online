@@ -287,11 +287,12 @@ nav .desktopMenu li:hover a {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin-top: 8px;
+  margin-top: 12px;
   font-style: italic;
   color: #8F00FF;
   font-weight: 500;
   text-decoration: none;
+  margin-bottom: 12px;
 }
 
 .headerNews_Row .headerNews_Column .headerNews_Column_Text a:hover {
