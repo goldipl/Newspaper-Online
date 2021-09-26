@@ -79,19 +79,19 @@ nav .desktopMenu li:hover a {
 
 .hamburger .bar2 {
     height: 4px;
-    background: #222222;
+    background: #8f00ff;
     margin: 5px auto;
 }
 
 .hamburger .bar3 {
     height: 4px;
-    background: #222222;
+    background: #8f00ff;
     margin: 14px auto;
 }
 
 .hamburger.active .bar1 {
     height: 4px;
-    background: #222222;
+    background: #8f00ff;
     margin: 6px auto;
     transition: 0.2s ease-in-out;
     transform: rotate(45deg) translateX(2px) translateY(4px);
@@ -103,7 +103,7 @@ nav .desktopMenu li:hover a {
 
 .hamburger.active .bar3 {
     height: 4px;
-    background: #222222;
+    background: #8f00ff;
     margin: 6px auto;
     transition: 0.2s ease-in-out;
     transform: rotate(-45deg) translateX(10px) translateY(-12px);
