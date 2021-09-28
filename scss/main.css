@@ -370,7 +370,7 @@ nav .desktopMenu li:hover a {
   text-decoration: none;
 }
 
-.section01 div {
+.newsSection01 div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -380,7 +380,7 @@ nav .desktopMenu li:hover a {
   padding: 8px;
 }
 
-.section01 div img {
+.newsSection01 div img {
   width: 300px;
   height: auto;
   border-left: 5px dashed #8F00FF;
