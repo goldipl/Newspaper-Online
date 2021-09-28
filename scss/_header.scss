@@ -105,12 +105,14 @@
 @media (max-width: 1000px) {
     .headerNews_Row .headerNews_Column {
         flex-basis: 50%;
+        padding: 8px;
     }
 }
 
 @media (max-width: 600px) {
     .headerNews_Row .headerNews_Column {
         flex-basis: 100%;
+        padding: 8px;
     }
 }
 
