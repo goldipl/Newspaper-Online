@@ -23,8 +23,7 @@
 }
 
 .newsSection01 {
-    div,
-    img {
+    div {
         display: flex;
         justify-content: center;
         padding: 8px;
@@ -35,6 +34,11 @@
             border-right: 5px dashed $purpleColor01;
             margin: 0 auto;
         }
+    }
+    h1 {
+        display: flex;
+        justify-content: center;
+        padding: 16px 0;
     }
 }
 
