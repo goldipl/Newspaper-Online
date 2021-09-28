@@ -248,7 +248,7 @@ nav .desktopMenu li:hover a {
 
 .headerNews_Row .headerNews_Column .headerNews_Column_Img img {
   width: 100%;
-  height: 360px;
+  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
   border-top: 5px dashed #8F00FF;
