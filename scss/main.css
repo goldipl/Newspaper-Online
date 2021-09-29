@@ -406,12 +406,11 @@ nav .desktopMenu li:hover a {
 body.news {
   -webkit-box-shadow: 0px 0px 28px -11px #222222;
           box-shadow: 0px 0px 28px -11px #222222;
-  margin: auto 15%;
+  margin: auto;
 }
 
 @media (max-width: 600px) {
   body.news {
-    width: 100%;
     -webkit-box-shadow: none;
             box-shadow: none;
     margin: 0;
