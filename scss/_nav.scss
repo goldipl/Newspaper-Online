@@ -123,10 +123,13 @@ nav .desktopMenu li:hover a {
     top: 0;
     background: #ddd;
     height: 100%;
-    width: 100vw;
     visibility: hidden;
     opacity: 0;
     display: table;
+}
+
+.mobileMenu.active {
+    width: 100%;
 }
 
 .mobileMenu .mobileMenu_li {
@@ -139,9 +142,9 @@ nav .desktopMenu li:hover a {
 
 .mobileMenu .mobileMenu_li li {
     display: block;
-    width: 100vw;
     text-align: center;
-    padding: 20px 0;
+    width: 100%;
+    padding: 20px;
     text-align: center;
     font-size: 35px;
     min-height: 50px;
