@@ -154,6 +154,10 @@ nav .desktopMenu li:hover a {
 
 .mobileMenu.active {
   width: 100%;
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
 }
 
 .mobileMenu .mobileMenu_li {
@@ -201,11 +205,6 @@ nav .desktopMenu li:hover a {
 .mobileMenu .mobileMenu_li li a {
   color: #222222;
   text-decoration: none;
-}
-
-.mobileMenu.active {
-  visibility: visible;
-  opacity: 1;
 }
 
 @media (min-width: 1101px) {
@@ -332,7 +331,7 @@ nav .desktopMenu li:hover a {
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-align: justify;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 @media (max-width: 1000px) {

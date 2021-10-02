@@ -130,6 +130,9 @@ nav .desktopMenu li:hover a {
 
 .mobileMenu.active {
     width: 100%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.6s;
 }
 
 .mobileMenu .mobileMenu_li {
@@ -166,11 +169,6 @@ nav .desktopMenu li:hover a {
 .mobileMenu .mobileMenu_li li a {
     color: $blackColor01;
     text-decoration: none;
-}
-
-.mobileMenu.active {
-    visibility: visible;
-    opacity: 1;
 }
 
 @media (min-width: 1101px) {
