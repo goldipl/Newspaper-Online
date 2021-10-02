@@ -389,11 +389,13 @@ nav .desktopMenu li:hover a {
 }
 
 .newsSection01 div img {
-  width: 300px;
-  height: auto;
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-left: 2px dashed #8F00FF;
   border-right: 2px dashed #8F00FF;
-  margin: 0 auto;
+  margin: 16px auto;
 }
 
 .newsSection01 h1 {
