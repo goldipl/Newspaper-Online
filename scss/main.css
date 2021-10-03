@@ -213,6 +213,10 @@ nav .desktopMenu li:hover a {
   }
 }
 
+.fullWidthBurger {
+  margin-right: 0 !important;
+}
+
 .header {
   height: calc(100% - 60px);
   background-color: #FFFFFF;
@@ -438,6 +442,20 @@ body.news .hamburger {
 
 .greyHTML {
   background-color: #2222221a;
+}
+
+.fullWidth {
+  width: 100% !important;
+}
+
+.bodyBlocked {
+  height: 100%;
+  overflow: none;
+  -webkit-overflow-scrolling: none;
+  -ms-overflow-style: none;
+  position: fixed;
+  left: 0;
+  right: 0;
 }
 
 footer {

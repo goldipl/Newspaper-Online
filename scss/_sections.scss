@@ -72,3 +72,17 @@ body.news {
 .greyHTML {
     background-color: $greyColor01;
 }
+
+.fullWidth {
+    width: 100% !important;
+}
+
+.bodyBlocked {
+    height: 100%;
+    overflow: none;
+    -webkit-overflow-scrolling: none;
+    -ms-overflow-style: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
