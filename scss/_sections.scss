@@ -53,6 +53,9 @@ body.news {
     box-shadow: 0px 0px 28px -11px $blackColor01;
     margin: auto;
     width: 80%;
+    .hamburger {
+        margin-right: 10%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -60,6 +63,9 @@ body.news {
         box-shadow: none;
         margin: 0;
         width: 100%;
+        .hamburger {
+            margin-right: 0;
+        }
     }
 }
 

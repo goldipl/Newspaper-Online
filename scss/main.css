@@ -420,12 +420,19 @@ body.news {
   width: 80%;
 }
 
+body.news .hamburger {
+  margin-right: 10%;
+}
+
 @media (max-width: 600px) {
   body.news {
     -webkit-box-shadow: none;
             box-shadow: none;
     margin: 0;
     width: 100%;
+  }
+  body.news .hamburger {
+    margin-right: 0;
   }
 }
 
